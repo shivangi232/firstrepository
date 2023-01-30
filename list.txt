@@ -1,0 +1,113 @@
+ibus ticket
+local bus ticket
+pani puri
+i bus ticket
+local bus ticket
+i bus ticket
+local bus ticket
+hoodie
+ibus ticket
+local bus ticket
+milk 
+sevai
+shoes
+hair cut
+socks
+jacket
+bus ticket
+cloths
+scarf
+hanger
+kajal
+lipsticks
+highlihter
+bb cream
+compack
+blender
+nailpaint
+
+
+["ibus ticket","local bus ticket","pani puri","ibus ticket","local bus ticket","ibusticket","local bus ticket","ibus ticket","local bus ticket","hoodie","ibus ticket","local bus ticket",
+"milk","sevai","shoes","hair cut","makeup","socks","jacket","bus ticket","cloths","scarf","hanger","kajal","lipsticks","highlihter","bb cream","compack","blender","nailpaint"]
+
+
+python
+
+list = ["ibus ticket","local bus ticket","pani puri","ibus ticket",
+"local bus ticket","ibus ticket","local bus ticket","ibus ticket","local bus ticket","hoodie","ibus ticket","milk","sevai","shoes","hair cut","makeup","socks","jacket","cloths","scarf","hanger","kajal","lipsticks","highlihter","bb cream","compack","blender","nailpaint"]
+
+
+b = 0
+dict ={}
+for i in range(len(list)):
+     
+    j = i+1
+    for j in range(len(list)):
+        if (list[i] == list[j]):
+          b = b+1
+         
+        
+    # print(list[i]+"=" + str(b))
+    if (b>1 and b <= 5):
+        dict[list[i]] = b
+    
+    b = 0
+print(dict)
+        
+
+
+ruby
+
+# Online Ruby Compiler (Interpreter)
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+list = ["ibus ticket","local bus ticket","pani puri","ibus ticket",
+"local bus ticket","ibus ticket","local bus ticket","ibus ticket","local bus ticket","hoodie","ibus ticket","milk","sevai","shoes","hair cut","makeup","socks","jacket","cloths","scarf","hanger","kajal","lipsticks","highlihter","bb cream","compack","blender","nailpaint"]
+
+
+b = 0
+dict ={}
+for i in 1..list.length
+     
+    j = i+1
+    for j in 1..list.length
+        if (list[i] == list[j])
+          b = b+1
+        end 
+    end    
+    # print(list[i]+"=" + str(b))
+    if (b>1 and b <= 5)
+        dict[list[i]] = b
+    end
+end
+    b = 0
+print(dict)
+        
+
+
+node js
+
+list = ["ibus ticket","local bus ticket","pani puri","ibus ticket",
+"local bus ticket","ibus ticket","local bus ticket","ibus ticket","local bus ticket","hoodie","ibus ticket","milk","sevai","shoes","hair cut","makeup","socks","jacket","cloths","scarf","hanger","kajal","lipsticks","highlihter","bb cream","compack","blender","nailpaint"]
+
+
+b = 0
+dict ={}
+for(let i=0;i<list.length;i++)
+     {
+    for(let j=i+1;j<list.length;j++)
+       { if (list[i] == list[j])
+          b = b+1;
+         }
+        
+    
+    if (b>1 && b <= 5)
+        dict[list[i]] = b;
+        
+    
+    b = 0;
+}
+console.log(dict);
+        
+
+
